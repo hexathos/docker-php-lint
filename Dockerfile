@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
 		lsb-release \
 		ca-certificates \ 
 		curl \
-		apt-utils
+		apt-utils \
+		zip
 		
 RUN curl https://packages.sury.org/php/apt.gpg -o /etc/apt/trusted.gpg.d/sury-php.gpg
 
